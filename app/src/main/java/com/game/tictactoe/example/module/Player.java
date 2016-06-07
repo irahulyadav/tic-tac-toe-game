@@ -98,6 +98,10 @@ public class Player {
         return id == 0 ? R.mipmap.button_0 : R.mipmap.button_x;
     }
 
+    public int getWinningIcon() {
+        return id == 0 ? R.mipmap.green_0 : R.mipmap.green_x;
+    }
+
     public enum Type {
         PERSON, COMPUTER
     }

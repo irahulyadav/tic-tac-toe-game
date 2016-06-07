@@ -18,7 +18,7 @@ public interface GameListenere {
 
     public boolean nextMove(Player player);
 
-    public void onResultShow(Player winner);
+    public void onResultShow(Player winner, Integer[] slot);
 
     public boolean onGameStop();
 }

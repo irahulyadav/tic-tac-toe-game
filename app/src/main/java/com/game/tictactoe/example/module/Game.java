@@ -37,6 +37,7 @@ public class Game extends Thread {
     private GameLevel level;
     private Player player0;
     private Player playerX;
+    private int gameCount;
 
     private Map<Integer, Player> moves = new HashMap<>();
     private List<Integer> movesLeft = new ArrayList<>();
@@ -85,15 +86,15 @@ public class Game extends Thread {
 
     }
 
-    public boolean isWin(Player player) {
+    public Integer[] isWin(Player player) {
         if (player.reachMinForResult()) {
             for (Integer[] winSlot : WINNING_SLOTES) {
                 if (player.isMatchFound(winSlot)) {
-                    return true;
+                    return winSlot;
                 }
             }
         }
-        return false;
+        return null;
     }
 
     public GameType getType() {
@@ -136,16 +137,18 @@ public class Game extends Thread {
                 gameListenere.onMoveTaken(button, player);
 
                 if (player.reachMinForResult()) {
-                    if (isWin(player)) {
+                    Integer[] slot = isWin(player);
+                    if (slot != null) {
                         if (gameListenere != null) {
-                            gameListenere.onResultShow(player);
+                            gameListenere.onResultShow(player, slot);
+                            stopGame();
                             return true;
                         }
                     }
                 }
                 if (movesLeft.size() <= 0) {
                     if (gameListenere != null) {
-                        gameListenere.onResultShow(null);
+                        gameListenere.onResultShow(null, null);
                         return true;
                     }
                 }
@@ -179,6 +182,7 @@ public class Game extends Thread {
             gameListenere.nextMove(getPlayerForNextMove());
         }
 
+        gameCount++;
     }
 
     public void stopGame() {
@@ -187,7 +191,6 @@ public class Game extends Thread {
         if (gameListenere != null) {
             gameListenere.onGameStop();
         }
-
     }
 
     public int generateMove(Player player) {

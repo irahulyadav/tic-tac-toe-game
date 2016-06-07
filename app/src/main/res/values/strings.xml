@@ -15,4 +15,6 @@
     <string name="normal">Normal</string>
     <string name="score">Score</string>
     <string name="move">Move</string>
+    <string name="game_started">Game Started</string>
+    <string name="game_stopped">Game Stopped</string>
 </resources>
