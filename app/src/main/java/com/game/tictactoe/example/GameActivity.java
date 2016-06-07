@@ -21,7 +21,7 @@ import com.game.tictactoe.example.module.GameType;
 import com.game.tictactoe.example.module.Player;
 
 
-public class GameActivity extends Activity implements View.OnClickListener, GameListenere, RadioGroup.OnCheckedChangeListener {
+public class GameActivity extends Activity implements View.OnClickListener, GameListener, RadioGroup.OnCheckedChangeListener {
     private static final int[] SLOTES = {R.id.button1,
             R.id.button2,
             R.id.button3,
@@ -53,7 +53,7 @@ public class GameActivity extends Activity implements View.OnClickListener, Game
 
         game = Game.newGame(GameType.COMPUTER);
         game.setLevel(GameLevel.NORMAL);
-        game.setGameListenere(this);
+        game.setGameListener(this);
 
         status.setText(" Level : ".concat(game.getLevel().name()));
 

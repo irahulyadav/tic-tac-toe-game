@@ -2,7 +2,7 @@ package com.game.tictactoe.example.module;
 
 import android.widget.ImageView;
 
-import com.game.tictactoe.example.GameListenere;
+import com.game.tictactoe.example.GameListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +31,7 @@ public class Game extends Thread {
     private static Game game;
     private int timer;
     private int playerTimer;
-    private GameListenere gameListenere;
+    private GameListener gameListener;
     private boolean running;
     private GameType type;
     private GameLevel level;
@@ -57,8 +57,8 @@ public class Game extends Thread {
         return game;
     }
 
-    public void setGameListenere(GameListenere gameListenere) {
-        this.gameListenere = gameListenere;
+    public void setGameListener(GameListener gameListener) {
+        this.gameListener = gameListener;
     }
 
     private void setPlayers() {
@@ -131,29 +131,29 @@ public class Game extends Thread {
             return false;
         }
         if (player.addMoves(move)) {
-            if (gameListenere != null) {
+            if (gameListener != null) {
                 moves.put(move, player);
                 movesLeft.remove(move);
-                gameListenere.onMoveTaken(button, player);
+                gameListener.onMoveTaken(button, player);
 
                 if (player.reachMinForResult()) {
                     Integer[] slot = isWin(player);
                     if (slot != null) {
-                        if (gameListenere != null) {
-                            gameListenere.onResultShow(player, slot);
+                        if (gameListener != null) {
+                            gameListener.onResultShow(player, slot);
                             stopGame();
                             return true;
                         }
                     }
                 }
                 if (movesLeft.size() <= 0) {
-                    if (gameListenere != null) {
-                        gameListenere.onResultShow(null, null);
+                    if (gameListener != null) {
+                        gameListener.onResultShow(null, null);
                         return true;
                     }
                 }
                 xTurn = !xTurn;
-                gameListenere.nextMove(getPlayerForNextMove());
+                gameListener.nextMove(getPlayerForNextMove());
             }
         }
 
@@ -177,9 +177,9 @@ public class Game extends Thread {
         for (int i = 1; i <= 9; i++) {
             movesLeft.add(i);
         }
-        if (gameListenere != null) {
-            gameListenere.onGameStart();
-            gameListenere.nextMove(getPlayerForNextMove());
+        if (gameListener != null) {
+            gameListener.onGameStart();
+            gameListener.nextMove(getPlayerForNextMove());
         }
 
         gameCount++;
@@ -188,8 +188,8 @@ public class Game extends Thread {
     public void stopGame() {
         movesLeft.clear();
         running = false;
-        if (gameListenere != null) {
-            gameListenere.onGameStop();
+        if (gameListener != null) {
+            gameListener.onGameStop();
         }
     }
 

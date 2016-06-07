@@ -8,7 +8,7 @@ import com.game.tictactoe.example.module.Player;
  * Created by rahul on 06/06/16.
  */
 
-public interface GameListenere {
+public interface GameListener {
 
     public boolean onGameStart();
 
