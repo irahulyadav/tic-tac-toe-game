@@ -10,6 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "SUPPORT_EMAIL", "\"torahulyadav@gmail.com\""
     }
     buildTypes {
         release {
@@ -17,7 +18,41 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore.jks")
+            storePassword 'debug1'
+            keyAlias 'tictactoetest'
+            keyPassword 'debug1'
+        }
+        release {
+            storeFile file('release.keystore.jks')
+            storePassword 'release1'
+            keyAlias 'tictactoe release'
+            keyPassword 'release1'
+        }
+    }
+
+    productFlavors {
+        sandbox {
+            applicationId 'com.game.tictactoe.example.test'
+            buildConfigField "String", "APP_NAME", "\"Tic Tac Toe Test\""
+            resValue "string", "app_name", buildConfigFields.get("APP_NAME").getValue().replace("\"", "")
+            archivesBaseName = buildConfigFields.get("APP_NAME").getValue().replace("\"", "") + "-" + defaultConfig.versionName
+            signingConfig signingConfigs.debug
+
+        }
+        production {
+            applicationId 'com.game.tictactoe.example'
+            buildConfigField "String", "APP_NAME", "\"Tic Tac Toe\""
+            resValue "string", "app_name", buildConfigFields.get("APP_NAME").getValue().replace("\"", "")
+            archivesBaseName = buildConfigFields.get("APP_NAME").getValue().replace("\"", "") + "-" + defaultConfig.versionName
+            signingConfig signingConfigs.release
+        }
+    }
 }
+
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
