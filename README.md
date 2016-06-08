@@ -33,6 +33,6 @@ DETAIL
 
 
 
- **[Debug Flavor Apk](https://github.com/googlesamples/android-testing/blob/master/ui/espresso/BasicSample)** - This is the test version
+ **[Debug Flavor Apk](https://bitbucket.org/rahul_yadav_/myntra-assistant-tictactoe-game/downloads/Tic%20Tac%20Toe-1.0-sandbox-debug.apk)** - This is the test version
 
- **[Release Flavor apk](https://bbuseruploads.s3.amazonaws.com/5fc9b9fb-a383-4019-b1a5-264715de2c74/downloads/00a8988f-5db4-407b-8a6b-a5b0112af50f/Tic%20Tac%20Toe-1.0-production-release.apk?Signature=edN2vljda%2FpDS8bqkzUNALhtvNg%3D&Expires=1465381442&AWSAccessKeyId=AKIAIWY5XSVPZPDQYRQQ&versionId=kju94JltHA0aoV7fan0naPNuFCaRj9ja&response-content-disposition=attachment%3B%20filename%3D%22Tic%2520Tac%2520Toe-1.0-production-release.apk%22)** - This is the release version
+ **[Release Flavor apk](https://bitbucket.org/rahul_yadav_/myntra-assistant-tictactoe-game/downloads/Tic%20Tac%20Toe-1.0-production-release.apk)** - This is the release version
