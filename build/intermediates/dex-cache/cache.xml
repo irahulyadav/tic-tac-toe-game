@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_dc5b2d0fb7e7bcba4e55695f68cbe44f859bca93/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-appcompat-v7-23.4.0_6658dc10811066cb0f5cf58f05473cac86bd1c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-support-vector-drawable-23.4.0_70647dcc4a67922da1fb674e792121445f4e86e6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/incremental-runtime-classes/sandbox/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="50b0fa2a41414da0e0545babe2fcd4ddac3e01d9">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/instant-run_773c52f3a73929781f3ea611c8f12b69b51d9fe0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/internal_impl-23.4.0_1cc5da1b1fd07f31b09fb74f6f6920ebc0e9a42f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Development/Android Studio.app/Contents/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha2/constraint-layout-solver-1.0.0-alpha2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="d5b32a2a1529a72472729ee5c94779d0ce9951eb">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha2_49b0e34950c168dffdd64d2869669d93e9244e85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/com.android.support-design-23.4.0_7cb358c5e5563d4cf733c944d3027433749a326c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-design-23.4.0_7cb358c5e5563d4cf733c944d3027433749a326c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Development/Android Studio.app/Contents/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha2/constraint-layout-solver-1.0.0-alpha2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5b32a2a1529a72472729ee5c94779d0ce9951eb">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/constraint-layout-solver-1.0.0-alpha2_49b0e34950c168dffdd64d2869669d93e9244e85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/support-annotations-23.4.0_e36baf248b24301325ee0319c8a794f79e34d4eb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_74f9ee3ffa9cf30e7124e6cbf7a659ce27105a53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="757a34f5d84a6b77a2bd0ba1affbcd2145329096">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha2_f94255ae05de381bc4177c4645f6138c0e930061/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_70647dcc4a67922da1fb674e792121445f4e86e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-animated-vector-drawable-23.4.0_74f9ee3ffa9cf30e7124e6cbf7a659ce27105a53.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/internal_impl-23.4.0_1cc5da1b1fd07f31b09fb74f6f6920ebc0e9a42f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/support-annotations-23.4.0_e36baf248b24301325ee0319c8a794f79e34d4eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-support-v4-23.4.0_0154ecd3e3cde1cc9aea14ea4fc23d188208aa5a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/incremental-classes/sandbox/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="24f87c57b2664e496933aaa69860bc1abe6168eb">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/instant-run-bootstrap_ad7d712ccc11efa62003d883bb0c6a244698d87d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="757a34f5d84a6b77a2bd0ba1affbcd2145329096">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/com.android.support.constraint-constraint-layout-1.0.0-alpha2_f94255ae05de381bc4177c4645f6138c0e930061.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/com.android.support-support-v4-23.4.0_0154ecd3e3cde1cc9aea14ea4fc23d188208aa5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/transforms/dex/sandbox/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_6658dc10811066cb0f5cf58f05473cac86bd1c31/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/iprahul/workspace/personal/myntra-assistant-tictactoe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-recyclerview-v7-23.4.0_dc5b2d0fb7e7bcba4e55695f68cbe44f859bca93.jar" />
+    </item>
+
+</items>
