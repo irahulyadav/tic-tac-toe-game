@@ -16,9 +16,9 @@ Minimum API level supported by SDL: 18 (Android 4.3) Jelly Bean .
 
 #About
 ----------------
-This is a very, very simple Android game I made in which you can play tic-tac-toe against an AI opponent.
+This is a very simple Android game I made in which you can play tic-tac-toe against an AI opponent.
 
-It have three LEVEL (Normal,MEDIUM,HARD).
+It have three level (Normal,Medium,Hard).
 
 #Flavor : 
 -------------
