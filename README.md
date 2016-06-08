@@ -33,18 +33,11 @@ It have three LEVEL (Normal,MEDIUM,HARD).
 
       3.) com.android.support.test:runner:0.5
       
-@TEST SUIT
-==========
+@[TEST SUIT]
+============
 
 1. Instrumentation Test Suit
 2. Espresoo Test Suit
-
-!a  
-@b
-#c
-$d
-%e
-&f
 
 
 [![Youtube Video](https://bitbucket.org/rahul_yadav_/tic-tac-toe-game/downloads/youtube-screenshot.png)](https://www.youtube.com/watch?v=aZx0xY8ejvQ "Video")
