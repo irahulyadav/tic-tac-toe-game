@@ -2,13 +2,11 @@
 ===================================
 @(version 1.0)
 
-Android]
-
-Requirements:
+[Requirements]
 
 Android Studio
 
-{Gradle System 23.0.3]
+[Gradle System 23.0.3]
 
 Android SDK (version 23 or later)
 
