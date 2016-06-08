@@ -22,7 +22,7 @@ It have three LEVEL (Normal,MEDIUM,HARD).
 
 #Flavor : 
 -------------
-1. debug : for test version
+1. Debug : for test version
 2. Release : for release version
 
 
@@ -56,5 +56,3 @@ It have three LEVEL (Normal,MEDIUM,HARD).
 #Video on youtube
 ------------------------
 [![Youtube Video](https://bitbucket.org/rahul_yadav_/tic-tac-toe-game/downloads/youtube-screenshot.png)](https://www.youtube.com/watch?v=aZx0xY8ejvQ "Video")
-
-
