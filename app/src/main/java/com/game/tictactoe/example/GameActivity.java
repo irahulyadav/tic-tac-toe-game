@@ -22,7 +22,7 @@ import com.game.tictactoe.example.module.Player;
 
 
 public class GameActivity extends Activity implements View.OnClickListener, GameListener, RadioGroup.OnCheckedChangeListener {
-    private static final int[] SLOTES = {R.id.button1,
+    public static final int[] SLOTES = {R.id.button1,
             R.id.button2,
             R.id.button3,
             R.id.button4,
@@ -37,6 +37,7 @@ public class GameActivity extends Activity implements View.OnClickListener, Game
     private TextView score1, score2, status, playerStaus;
     private Button startButton;
     private AlertDialog.Builder alert;
+    private boolean testMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -128,7 +129,11 @@ public class GameActivity extends Activity implements View.OnClickListener, Game
                 }
             }, 1000);
         } else {
-            drawDialog();
+            if (!testMode) {
+                alert = drawDialog();
+            } else {
+                toast("Draw!");
+            }
         }
     }
 
@@ -154,7 +159,7 @@ public class GameActivity extends Activity implements View.OnClickListener, Game
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         if (checkedId == R.id.normalMode) {
             game.setLevel(GameLevel.NORMAL);
-        } else if (checkedId == R.id.midiumMode) {
+        } else if (checkedId == R.id.mediumMode) {
             game.setLevel(GameLevel.MEDIUM);
         } else if (checkedId == R.id.hardMode) {
             game.setLevel(GameLevel.HARD);
@@ -218,6 +223,10 @@ public class GameActivity extends Activity implements View.OnClickListener, Game
     private void updateScoreBoard() {
         score1.setText(game.getPlayer0().getName().concat(" : ") + game.getPlayer0().getWinningTime());
         score2.setText(game.getPlayerX().getName().concat(" : ") + game.getPlayerX().getWinningTime());
+    }
+
+    public void setTestMode(boolean testMode) {
+        this.testMode = testMode;
     }
 
     private View getSlotByPosition(int pos) {

@@ -17,7 +17,7 @@ import java.util.Set;
  * Created by rahul on 06/06/16.
  */
 
-public class Game extends Thread {
+public class Game {
     private static final Integer[][] WINNING_SLOTES = {
             {1, 2, 3},
             {1, 4, 7},
@@ -307,12 +307,6 @@ public class Game extends Thread {
         }
         return sameSlotNo && playerMove && emptyPlace == 2;
     }
-
-    @Override
-    public void run() {
-        super.run();
-    }
-
 
     private Integer hasWiningMove(Player player) {
         if (player.getMoves().size() > 1) {

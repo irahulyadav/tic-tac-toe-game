@@ -53,7 +53,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:text="@string/score"
-                android:textAlignment="viewStart"
                 android:textAllCaps="true" />
 
             <TextView
@@ -194,7 +193,7 @@
             android:text="@string/normal" />
 
         <RadioButton
-            android:id="@+id/midiumMode"
+            android:id="@+id/mediumMode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
