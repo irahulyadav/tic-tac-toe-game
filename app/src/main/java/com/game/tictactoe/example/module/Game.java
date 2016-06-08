@@ -213,13 +213,18 @@ public class Game {
     }
 
     private Integer generateRandom() {
-        Integer nextMove = isLastMove() ? movesLeft.get(0) :
-                movesLeft.get(new Random().nextInt(movesLeft.size() - 1));
-        if (moves.containsKey(nextMove)) {
-            return generateRandom();
+        if (isLastMove()) {
+            return movesLeft.get(0);
         }
-        return nextMove;
+        Random random = new Random();
+        int max = movesLeft.size() - 1;
+        int nextMove;
+        do {
+            nextMove = random.nextInt(max);
+        } while (nextMove < 0 || moves.containsKey(nextMove));
+        return movesLeft.get(nextMove);
     }
+
 
     private Integer generateMove(int level, Player player) {
         Integer nextMove = hasWiningMove(player);
@@ -234,14 +239,13 @@ public class Game {
                 return generateRandom();
             }
             if (player.getMoves().isEmpty()) {
-                nextMove = firstMove(player0);
-                if (nextMove == 5) {
-                    nextMove = 1;
+                if (movesLeft.contains(5)) {
+                    return 5;
+                } else {
+                    return 1;
                 }
             }
-            if (nextMove == -1) {
-                nextMove = checkMultipleWiningSlot(player0);
-            }
+            nextMove = checkMultipleWiningSlot(player0);
             if (nextMove == -1) {
                 nextMove = checkMultipleWiningSlot(player);
             }
@@ -263,16 +267,14 @@ public class Game {
             return -1;
         }
         Iterator<Integer> iterator = movesLeft.iterator();
-        Integer notForMultlySlot = -1;
+        List<Integer> noForMultlySlot = new ArrayList<>();
         Integer noForTwoWin = -1;
         while (iterator.hasNext()) {
             Integer winingMove = iterator.next();
             int i = 0;
-
             for (Integer[] slot : WINNING_SLOTES) {
                 if (isTwoSlotEmptyForPlayer(player, slot, winingMove)) {
                     i++;
-                    notForMultlySlot = winingMove;
                 }
                 if (i >= 2) {
                     if (noForTwoWin < winingMove) {
@@ -280,15 +282,30 @@ public class Game {
                     }
                     if (player.getId() != playerX.getId()) {
                         for (Integer[] s : WINNING_SLOTES) {
-                            if (isTwoSlotEmptyForPlayer(playerX, s, noForTwoWin)) {
-                                return noForTwoWin;
+                            if (isTwoSlotEmptyForPlayer(playerX, s, noForTwoWin) && !noForMultlySlot.contains(winingMove)) {
+                                noForMultlySlot.add(winingMove);
                             }
                         }
                     }
                 }
             }
         }
-        return noForTwoWin == -1 ? notForMultlySlot : noForTwoWin;
+
+        if (noForMultlySlot.size() >= 2) {
+            for (Integer no : noForMultlySlot) {
+                if (no == 1) {
+                    if (movesLeft.contains(2)) {
+                        return 2;
+                    }
+                } else if (movesLeft.contains(no - 1)) {
+                    return no - 1;
+                }
+            }
+        } else if (noForMultlySlot.size() == 1) {
+            return noForMultlySlot.get(0);
+        }
+
+        return noForTwoWin;
     }
 
     private boolean isTwoSlotEmptyForPlayer(Player player, Integer[] slot, Integer no) {

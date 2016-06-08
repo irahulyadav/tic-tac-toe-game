@@ -22,7 +22,7 @@ It have three LEVEL (Normal,MEDIUM,HARD).
 
 #Flavor : 
 -------------
-1. DEBUG : for test version
+1. debug : for test version
 2. Release : for release version
 
 
