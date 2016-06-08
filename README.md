@@ -24,7 +24,7 @@ Flavor : DEBUG, RELEASE
 DETAIL
 =======
 1. Tools Used : Minimum Android SDK 4.0, JAVA 8.0, Android Studio, Gradle System 23.0.3,
-   ----------
+   
 2. Library Used : Using these libraries for Ui automation testing and unit testing.
 
       1.) com.android.support.test.espresso:espresso-core:2.2.2
@@ -32,6 +32,13 @@ DETAIL
       2.) com.android.support.test.uiautomator:uiautomator-v18:2.1.2
 
       3.) com.android.support.test:runner:0.5
+      
+TESTING
+=======
+
+1. Instrumentation Test Suit
+2. Espresoo Test Suit
+
 
 
 [![Youtube Video](https://bitbucket.org/rahul_yadav_/tic-tac-toe-game/downloads/youtube-screenshot.png)](https://www.youtube.com/watch?v=aZx0xY8ejvQ "Video")

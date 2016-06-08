@@ -1,4 +1,4 @@
-package com.game.tictactoe.example.test.com.game.tictactoe.example.suit;
+package com.game.tictactoe.example.suit;
 
 import com.game.tictactoe.example.test.GameActivityEspressoTest;
 
