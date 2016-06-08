@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-support-v4-23.4.0_b7a9f7efe77169f881ded34739daf4f6ab19b244.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="false"
@@ -18,6 +27,15 @@
         revision="23.0.3"
         sha1="796f9229948e907471c5595fbe94655ccf03ff73">
         <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/androidTest/production/debug/com.android.support.test-runner-0.5_c682b6d4f8d79fe7392305d4003ad5d08d1bea0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rahul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/support-annotations-23.4.0_60a0e6bac06860f90037a1a28bc077c332c7627c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-animated-vector-drawable-23.4.0_46e4adc8dcba0cf03680b65eb6ad76c3fe25f4be.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/rahul/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
         jumboMode="false"
         optimize="false"
@@ -57,12 +84,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="757a34f5d84a6b77a2bd0ba1affbcd2145329096">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/com.android.support.constraint-constraint-layout-1.0.0-alpha2_7502178dd1a24cafda22811c1b0f123f1db296c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/internal_impl-23.4.0_2ce19c2dddf009f608de2c2205943d2e8b0d78ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="false"
         revision="23.0.3"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
         <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/debug/com.android.support-recyclerview-v7-23.4.0_00181c16af65ddac07f553e403dee497a2235732.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-recyclerview-v7-23.4.0_00181c16af65ddac07f553e403dee497a2235732.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,12 +183,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Applications/Development/Android Studio.app/Contents/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha2/constraint-layout-solver-1.0.0-alpha2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5b32a2a1529a72472729ee5c94779d0ce9951eb">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/constraint-layout-solver-1.0.0-alpha2_49b0e34950c168dffdd64d2869669d93e9244e85.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="false"
         revision="23.0.3"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/debug/com.android.support-support-vector-drawable-23.4.0_a3cc582e38b1874cb7c16496bb933f0f2f10788d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-appcompat-v7-23.4.0_87cf4151ae360b2e41585da26a5036e4d3872862.jar" />
     </item>
     <item
         is-multidex="false"
@@ -162,6 +234,15 @@
         revision="23.0.3"
         sha1="d5b32a2a1529a72472729ee5c94779d0ce9951eb">
         <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/debug/constraint-layout-solver-1.0.0-alpha2_49b0e34950c168dffdd64d2869669d93e9244e85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-design-23.4.0_f59cb0df8d22c6e66810f39ab680e68f46ef2155.jar" />
     </item>
     <item
         is-multidex="false"
@@ -207,6 +288,15 @@
         revision="23.0.3"
         sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
         <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/androidTest/production/debug/javawriter-2.1.1_2ff5d552952dfd890f975375b7797298264ee4bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/rahul/Mobile app/Android/Assignment/tic-tac-toe-game/app/build/intermediates/pre-dexed/production/release/com.android.support-support-vector-drawable-23.4.0_a3cc582e38b1874cb7c16496bb933f0f2f10788d.jar" />
     </item>
     <item
         is-multidex="false"
