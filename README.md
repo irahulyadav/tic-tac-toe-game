@@ -1,9 +1,10 @@
-Tic Tac Toe
-===================================
+Tic Tac Toe Game
+================
 version 1.0
 --------------
-@Requirements
-=============
+--------------------------
+#Requirements
+----------------------
 Android Studio
 
 Gradle System 23.0.3
@@ -14,15 +15,19 @@ Minimum API level supported by SDL: 18 (Android 4.3) Jelly Bean .
 
 
 #About
-=====
+----------------
 This is a very, very simple Android game I made in which you can play tic-tac-toe against an AI opponent.
 
 It have three LEVEL (Normal,MEDIUM,HARD).
 
-#Flavor : DEBUG, RELEASE
---------
+#Flavor : 
+-------------
+1. DEBUG : for test version
+2. Release : for release version
+
+
 #DETAIL
-=======
+----------------------
 1. Tools Used : Minimum Android SDK 4.0, JAVA 8.0, Android Studio, Gradle System 23.0.3,
    
 2. Library Used : Using these libraries for Ui automation testing and unit testing.
@@ -33,18 +38,21 @@ It have three LEVEL (Normal,MEDIUM,HARD).
 
       3.) com.android.support.test:runner:0.5
       
-#TEST #SUIT
-=========
+#TEST SUIT
+-------------------------
 
 1. Instrumentation Test Suit
 2. Espresoo Test Suit
 
-
-[![Youtube Video](https://bitbucket.org/rahul_yadav_/tic-tac-toe-game/downloads/youtube-screenshot.png)](https://www.youtube.com/watch?v=aZx0xY8ejvQ "Video")
-
-
-
+#Download
+----------------
  **[Download Debug Flavor Apk](https://bitbucket.org/rahul_yadav_/tic-tac-toe-game/downloads/Tic%20Tac%20Toe-1.0-sandbox-debug.apk)** - This is the test version
 ======================
  **[Download Release Flavor apk](https://bitbucket.org/rahul_yadav_/tic-tac-toe-game/downloads/Tic%20Tac%20Toe-1.0-production-release.apk)** - This is the release version
 ========================
+
+#Video on youtube
+------------------------
+[![Youtube Video](https://bitbucket.org/rahul_yadav_/tic-tac-toe-game/downloads/youtube-screenshot.png)](https://www.youtube.com/watch?v=aZx0xY8ejvQ "Video")
+
+
