@@ -21,7 +21,7 @@ It have three LEVEL (Normal,MEDIUM,HARD).
 
 Flavor : DEBUG, RELEASE
 ------
-DETAIL
+@DETAIL
 =======
 1. Tools Used : Minimum Android SDK 4.0, JAVA 8.0, Android Studio, Gradle System 23.0.3,
    
@@ -33,8 +33,8 @@ DETAIL
 
       3.) com.android.support.test:runner:0.5
       
-TESTING
-=======
+@TEST @SUIT
+===========
 
 1. Instrumentation Test Suit
 2. Espresoo Test Suit
