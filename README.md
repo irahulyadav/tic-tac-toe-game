@@ -26,13 +26,12 @@ DETAIL
 1. Tools Used : Minimum Android SDK 4.0, JAVA 8.0, Android Studio, Gradle System 23.0.3,
    ----------
 2. Library Used : Using these libraries for Ui automation testing and unit testing.
-   -------------
+
       1.) com.android.support.test.espresso:espresso-core:2.2.2
 
       2.) com.android.support.test.uiautomator:uiautomator-v18:2.1.2
 
       3.) com.android.support.test:runner:0.5
-
 
 
  **[Debug Flavor Apk](https://bitbucket.org/rahul_yadav_/myntra-assistant-tictactoe-game/downloads/Tic%20Tac%20Toe-1.0-sandbox-debug.apk)** - This is the test version
